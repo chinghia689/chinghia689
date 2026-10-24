@@ -2,7 +2,7 @@
 
 **AI Engineer | GenAI, LLM & RAG** · Can Tho, Vietnam · Open to relocation and on-site work
 
-[Portfolio](https://portfolio-chinghia.vercel.app) · [LinkedIn](https://www.linkedin.com/in/chinghia010804/) · [Email](mailto:chinghia689@gmail.com)
+[Portfolio](https://chinghia.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/chinghia010804/) · [Email](mailto:chinghia689@gmail.com)
 
 I build and evaluate retrieval-augmented generation systems, with a focus on Vietnamese economic and legal question answering.
 
