@@ -21,7 +21,6 @@ Retrieval-clustering research using multilingual-E5, top-40 cosine candidates, K
 
 - Reported on 1,000 automatically generated VNEIQAD question-answer pairs over 120,165 VEID chunks: **MRR 0.62**, **NDCG@5 0.83**, **ROUGE-2 F1 0.68**, **BLEU-2 0.65** (GPT-5.0 mini answer generation).
 - The project report compares answer-generation scores of BLEU-2 **0.61 → 0.65** and ROUGE-2 F1 **0.49 → 0.68** against an earlier group system using GPT-4o-mini. Because the generation models differ, this is not a controlled model-matched comparison.
-- A separate cosine top-5 retrieval run reports MRR **0.7352**, Hit@5 **0.8040**, and NDCG@5 **0.9805**. It is not yet a matched rerun of ERC-RAG; no retrieval-improvement claim is made from these separate runs.
 
 [Repository](https://github.com/chinghia689/economy_rag_ebd_kmeans_llm_TIEN_PHONG_TT_VL_2026) · [Demo](https://vietecochat.site/)
 
