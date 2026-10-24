@@ -22,13 +22,13 @@ Retrieval-clustering research using multilingual-E5, top-40 cosine candidates, K
 - Reported on 1,000 automatically generated VNEIQAD question-answer pairs over 120,165 VEID chunks: **MRR 0.62**, **NDCG@5 0.83**, **ROUGE-2 F1 0.68**, **BLEU-2 0.65** (GPT-5.0 mini answer generation).
 - The project report compares answer-generation scores of BLEU-2 **0.61 → 0.65** and ROUGE-2 F1 **0.49 → 0.68** against an earlier group system using GPT-4o-mini. Because the generation models differ, this is not a controlled model-matched comparison.
 
-[Repository](https://github.com/chinghia689/economy_rag_ebd_kmeans_llm_TIEN_PHONG_TT_VL_2026) · [Demo](https://vietecochat.site/)
+[Repository](https://github.com/chinghia689/economy_rag_ebd_kmeans_llm_TIEN_PHONG_TT_VL_2026)
 
 ### Vietnamese Legal RAG
 
 Hybrid ChromaDB/BM25 retrieval with a LangGraph workflow, FastAPI, and Docker Compose. The prototype indexes **6 documents** into **1,035 chunks**. In a preliminary 30-question retrieval set, the correct source file and article appeared in top 20 for **27/30 questions (90%)**. This is a retrieval result; answer accuracy has not been evaluated.
 
-[Repository](https://github.com/chinghia689/vietnamese-legal-rag) · [Demo](https://lawchat.me/)
+[Repository](https://github.com/chinghia689/vietnamese-legal-rag)
 
 ## Publication
 
