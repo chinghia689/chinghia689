@@ -1,31 +1,54 @@
-# Nghia Ngo
+# Ngo Chi Nghia
 
-### AI Engineer | GenAI, RAG & Retrieval Evaluation
+**AI Engineer | GenAI, LLM & RAG** · Can Tho, Vietnam · Open to relocation and on-site work
 
-I build and evaluate Vietnamese-language AI applications, with a focus on retrieval-augmented generation, search quality, and practical backend systems.
+[Portfolio](https://portfolio-chinghia.vercel.app) · [LinkedIn](https://www.linkedin.com/in/chinghia010804/) · [Email](mailto:chinghia689@gmail.com)
 
-## Featured projects
+I build and evaluate retrieval-augmented generation systems, with a focus on Vietnamese economic and legal question answering.
 
-### [ERC-RAG: Vietnamese economy question answering](https://github.com/chinghia689/economy_rag_ebd_kmeans_llm_TIEN_PHONG_TT_VL_2026)
+## Experience
 
-Research implementation of energy-distance-based clustering for selecting retrieved context. A 1,000-question multilingual-E5 cosine top-5 run scored **MRR 0.7352**, **Hit@5 0.8040**, and **NDCG@5 0.9805** with the project’s current metric definitions. The existing ERC-RAG figures have not yet been reproduced under a confirmed identical configuration, so I am not claiming a retrieval improvement over this baseline.
+**AI Engineer Intern (Generative AI)** · ADHIGHTECH (Tien Phong Engineering Technology Co., Ltd.) · Mar–Jul 2026
 
-### [Vietnamese Legal RAG](https://github.com/chinghia689/vietnamese-legal-rag)
+- Implemented and compared dense, BM25, hybrid, and cluster-based retrieval for Vietnamese economic question answering, including energy-distance cluster ranking and LLM relevance filtering.
+- Built a FastAPI REST service and packaged the application with Docker Compose for Ubuntu Linux.
 
-Legal-document QA prototype using hybrid ChromaDB and BM25 retrieval, with a FastAPI/LangGraph backend and React frontend. In a 30-question pilot, the target source and article appeared in the hybrid top-20 for **27 questions**. Answer accuracy has not yet been evaluated.
+## Selected projects
 
-### [Portfolio](https://portfolio-chinghia.vercel.app)
+### ERC-RAG · Vietnamese economic question answering
 
-Selected AI, research, and software projects: [portfolio-chinghia.vercel.app](https://portfolio-chinghia.vercel.app).
+Retrieval-clustering research using multilingual-E5, top-40 cosine candidates, K-Means with silhouette-based cluster selection, energy-distance ranking, and LLM relevance filtering.
 
-## Technical focus
+- Reported on 1,000 automatically generated VNEIQAD question-answer pairs over 120,165 VEID chunks: **MRR 0.62**, **NDCG@5 0.83**, **ROUGE-2 F1 0.68**, **BLEU-2 0.65** (GPT-5.0 mini answer generation).
+- The project report compares answer-generation scores of BLEU-2 **0.61 → 0.65** and ROUGE-2 F1 **0.49 → 0.68** against an earlier group system using GPT-4o-mini. Because the generation models differ, this is not a controlled model-matched comparison.
+- A separate cosine top-5 retrieval run reports MRR **0.7352**, Hit@5 **0.8040**, and NDCG@5 **0.9805**. It is not yet a matched rerun of ERC-RAG; no retrieval-improvement claim is made from these separate runs.
 
-- **Languages:** Python, C/C++
-- **GenAI and retrieval:** RAG, LangChain, LangGraph, ChromaDB, BM25, multilingual embeddings, retrieval evaluation
-- **Backend and deployment:** FastAPI, REST APIs, Docker, Linux, Git
+[Repository](https://github.com/chinghia689/economy_rag_ebd_kmeans_llm_TIEN_PHONG_TT_VL_2026) · [Demo](https://vietecochat.site/)
 
-## Connect
+### Vietnamese Legal RAG
 
-- [Portfolio](https://portfolio-chinghia.vercel.app)
-- [LinkedIn](https://www.linkedin.com/in/chinghia010804/)
-- [GitHub](https://github.com/chinghia689)
+Hybrid ChromaDB/BM25 retrieval with a LangGraph workflow, FastAPI, and Docker Compose. The prototype indexes **6 documents** into **1,035 chunks**. In a preliminary 30-question retrieval set, the correct source file and article appeared in top 20 for **27/30 questions (90%)**. This is a retrieval result; answer accuracy has not been evaluated.
+
+[Repository](https://github.com/chinghia689/vietnamese-legal-rag) · [Demo](https://lawchat.me/)
+
+## Publication
+
+**Chi-Nghia Ngo, Anh-Khoi Ngo-Ho, Anh-Khoa Ngo-Ho.** “ERC-RAG: An Energy-based Retrieval Clustering for RAG in Vietnamese Economy Chatbots.” Submitted to **ICEIR 2026**, under review. Contribution: research ideas, implementation, and experiments.
+
+## Award
+
+Finalist, **FPTU Can Tho Olympic AI**, May 2026.
+
+## Skills
+
+- **Programming:** Python
+- **LLM & RAG:** OpenAI API, Gemini API, Groq API, RAG, prompt engineering
+- **Retrieval:** multilingual-E5, ChromaDB, BM25, hybrid retrieval, Reciprocal Rank Fusion (RRF), K-Means, energy distance
+- **Evaluation:** MRR, NDCG@5, ROUGE-2, BLEU-2
+- **Frameworks & deployment:** FastAPI, LangChain, LangGraph, Docker, Docker Compose, Ubuntu Linux
+- **Tools & data:** Git, GitHub, NumPy, Pandas, Claude Code, OpenAI Codex CLI
+- **Languages:** Vietnamese (native), English (VSTEP B1)
+
+## Education
+
+**Nam Can Tho University** · Bachelor of Engineering in Information Technology · GPA **3.44/4.00** · Aug 2026
